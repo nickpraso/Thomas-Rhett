@@ -1,0 +1,39 @@
+html{max-width: 1500px;
+    margin:auto;
+    max-height: 400px}
+
+
+header{ 
+    font-size: 70; 
+    color: floralwhite; 
+    font-weight: bold; 
+    text-align: center; 
+    background-color: darkgray;
+font-family: 'Roboto', sans-serif;}
+
+
+ol{background-color: darkgray;
+color: floralwhite;
+text-align: center;
+font-size: 25;
+    width: auto;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+ol li{ list-style: none}
+
+body{background-image: url(photos/songs.jpg); background-size:cover;}
+
+a{color: black}
+a:visited{color:black}
+
+.menu> div{
+    padding: 2;
+    text-align: center;
+    border: 1px solid;
+background-color: darkgray;}
+.menu{ 
+    display:grid; 
+    grid-template-columns: 
+        auto auto auto;
+    grid-gap: 5px;}

@@ -1,0 +1,46 @@
+html{max-width: 1500px;
+    margin:auto;
+    max-height: 1000px}
+
+
+header{ 
+    font-size: 70; 
+    color: floralwhite; 
+    font-weight: bold; 
+    text-align: center; 
+    background-color: darkgray;
+font-family: 'Roboto', sans-serif;}
+
+body{background-image:url(photos/Gallery%20photo.jpg);
+background-size: cover;
+background-repeat: no-repeat}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;}
+
+a{color: black}
+a:visited{color:black}
+
+.menu> div{
+    padding: 2;
+    text-align: center;
+    border: 2px solid;
+background-color: darkgray}
+.menu{ 
+    display:grid; 
+    grid-template-columns: 
+        auto auto auto;
+    grid-gap: 5px;}
+
+.Container{
+    display:grid; 
+    grid-template-columns: 
+        auto auto auto ;
+    grid-gap: 5px;}
+
+.Container> div{;text-align: center;}
+
+
+
